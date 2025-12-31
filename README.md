@@ -34,11 +34,10 @@ Not hosted. Run locally using the steps below in Android Studio.
 - Download Android Studio Code
 - Create an Android device/emulator (API 28+ and require internet connection)
 - Clone repository: git clone https://github.com/Hj4704/Movie-Database-Project.git
+- Open the project in Android Studio Code, open project directory, and the the gradle sync
 - Add a TMDB API key
     - Create an account at https://www.themoviedb.org
     - Generate an API key
     - Add the key in the MainActivity.kt class (where it asks for the apiKey)
-- Add the following lines to the AndroidManifest.xml inside <manifest ...> (above <application>)
-    - <uses-permission android:name="android.permission.INTERNET" />
-    - <uses-permission android:name="android.permission.CAMERA" />
-- 
+
+NOTE: All dependencies and add ons are already present in AndroidManifest.xml and build.gradle.kts
